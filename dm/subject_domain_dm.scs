@@ -17,7 +17,7 @@ subject_domain_of_dm
 <= nrel_private_subject_domain: subject_domain_of_number;
 <= nrel_private_subject_domain: subject_domain_of_coding;
 <= nrel_private_subject_domain: subject_domain_of_alg;
-<= nrel_private_subject_domain: subject_domain_of_system;
+<= nrel_private_subject_domain: subject_domain_of_func_system;
 <= nrel_private_subject_domain: subject_domain_of_bit_computing;
 <= nrel_private_subject_domain: subject_domain_of_discr_group;;
 
