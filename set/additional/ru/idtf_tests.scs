@@ -1,0 +1,16 @@
+set_A => nrel_main_idtf: [множество A] (* <- lang_ru;; *);;
+set_B => nrel_main_idtf: [множество B] (* <- lang_ru;; *);;
+set_C => nrel_main_idtf: [множество C] (* <- lang_ru;; *);;
+set_D => nrel_main_idtf: [множество D] (* <- lang_ru;; *);;
+
+nrel_A => nrel_main_idtf: [отношение A*] (* <- lang_ru;; *);;
+nrel_B => nrel_main_idtf: [отношение B*] (* <- lang_ru;; *);;
+nrel_C => nrel_main_idtf: [отношение C*] (* <- lang_ru;; *);;
+nrel_D => nrel_main_idtf: [отношение D*] (* <- lang_ru;; *);;
+nrel_E => nrel_main_idtf: [отношение E*] (* <- lang_ru;; *);;
+
+nrel_converse_relation => nrel_main_idtf: [обратное отношение*] (* <- lang_ru;; *);;
+set_of_sets => nrel_main_idtf: [семейство множеств]  (* <- lang_ru;; *);;
+
+set_of_natural_numbers => nrel_power_set: [бесконечность] (* <- lang_ru;; *);;
+set_of_real_numbers    => nrel_power_set: [бесконечность] (* <- lang_ru;; *);;

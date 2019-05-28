@@ -1,0 +1,11 @@
+section_the_empty_set
+=> nrel_main_idtf:
+	[Section. The Empty Set]
+	(* <- lang_en;; *);
+
+<= nrel_sc_text_translation:
+
+		...
+		(*
+		-> rrel_example: "file://htmls/section_the_empty_set_en.html" (* <-lang_en;; *);; 
+		*);;

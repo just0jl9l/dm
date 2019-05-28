@@ -1,0 +1,11 @@
+ui_menu_na_keynodes => nrel_main_idtf: 
+	[Keynodes for navigation] (* <- lang_en;; *);;
+
+ui_menu_na_mappings => nrel_main_idtf:
+	[Commands for working with mappings] (* <- lang_en;; *);;
+
+ui_menu_na_view_kb_extended_of_sets => nrel_main_idtf: 
+	[Commands to view KB] (* <- lang_en;; *);;
+
+ui_menu_na_sets => nrel_main_idtf:
+	[Commands for working with sets] (* <- lang_en;; *);;

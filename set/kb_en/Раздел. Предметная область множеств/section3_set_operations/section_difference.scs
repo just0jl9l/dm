@@ -1,0 +1,14 @@
+section_difference
+=> nrel_main_idtf:
+	[Section. Difference]
+	(* <- lang_en;; *);
+=>nrel_next: section_complement_sets;
+
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/difference_en.html"
+			(* <- lang_en;; *);;
+		*);;
+		

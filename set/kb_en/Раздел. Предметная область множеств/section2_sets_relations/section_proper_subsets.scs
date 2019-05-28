@@ -1,0 +1,10 @@
+section_proper_subsets
+=> nrel_main_idtf:
+	[Section. Proper subsets]
+	(* <- lang_en;; *);
+
+<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://htmls/section_proper_subsets_en .html" (* <-lang_en;; *);; 
+		*);;

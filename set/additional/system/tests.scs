@@ -1,0 +1,89 @@
+// ======== EXAMPLE 3.1 =========
+m_A -> rrel_1: X;;
+m_A -> rrel_2: Y;;
+m_A -> rrel_3: Z;;
+
+X -> a; b;;
+Y -> 1; 2;;
+
+Z -> (a => 1);;
+Z -> (a => 2);;
+Z -> (b => 2);;
+
+// ======== EXAMPLE 3.2 ==========
+mapping1 -> rrel_1: otprav1;;
+mapping1 -> rrel_2: prib1;;
+mapping1 -> rrel_3: Z1;;
+
+otprav1 -> a; b; c;;
+prib1 -> 1; 2; 3;;
+
+Z1 -> (a => 2);;
+Z1 -> (b => 3);;
+Z1 -> (c => 1);;
+
+// ======== EXAMPLE 3.3 ==========
+mapping2 -> rrel_1: otprav2;;
+mapping2 -> rrel_2: prib2;;
+mapping2 -> rrel_3: Z2;;
+
+otprav2 -> b; c; d; e;;
+prib2 -> 1; 2; 3;;
+
+Z2 -> (d => 2);;
+Z2 -> (e => 1);;
+Z2 -> (b => 3);;
+Z2 -> (c => 1);;
+
+// =========== EXAMPLE 2 ====================
+nrel_A <- sc_node_norole_relation; relation;;
+	a => nrel_A: b; a;;
+	b => nrel_A: b;;
+
+nrel_B <- sc_node_norole_relation; relation;;
+	a =>nrel_B:	b;;
+	b =>nrel_B:	c;;
+
+nrel_C <- sc_node_norole_relation; relation;;
+	a => nrel_C: b; a;;
+	b => nrel_C: c;;
+
+nrel_D <- sc_node_norole_relation; relation;;
+	a => nrel_D: b;;
+	b => nrel_D: a;;
+
+nrel_E <- sc_node_norole_relation; relation;;
+	a => nrel_E: a;;
+	b => nrel_E: b;;
+
+// ======== EXAMPLE 1 =============
+set_A <- set; finite_set;
+	-> a; r; g; h; f; d; c;;
+
+set_B <- set; finite_set;
+	-> f; d; c; b; e;;
+
+set_C <- set; finite_set;
+	-> f; d; b; w; p; k; m;;
+
+set_D <- set; finite_set;
+	-> b; c; d;;
+
+nrel_converse_relation 
+	<- sc_node_norole_relation; relation;;
+infinity 
+	<- sc_node_norole_relation;;
+nrel_power_set
+	<- sc_node_norole_relation;
+	<- oriented_relation;
+	<- relation;
+	<- binary_relation;;
+set_of_natural_numbers 
+	<- sc_node_norole_relation;;
+set_of_real_numbers 
+	<- sc_node_norole_relation;;
+nrel_asked 
+	<- sc_node_norole_relation; binary_relation;;
+set_of_sets
+	<- sc_node_not_relation;
+	<= nrel_inclusion: set;;

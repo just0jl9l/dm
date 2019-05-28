@@ -1,0 +1,15 @@
+set_D
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[множество D]
+	(*
+	<- lang_ru;;
+	*);
+	[set D]
+	(*
+	<- lang_en;;
+	*);
+<-set;
+<-finite_set;
+-> b;c;d;;
+

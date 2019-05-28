@@ -1,0 +1,11 @@
+section_specifying_a_set
+=> nrel_main_idtf:
+	[Section. Specifying a set]
+	(* <- lang_en;; *);
+
+<= nrel_sc_text_translation:
+
+		...
+		(*
+		-> rrel_example: "file://htmls/section_specifying_a_set_en.html" (* <-lang_en;; *);; 
+		*);;

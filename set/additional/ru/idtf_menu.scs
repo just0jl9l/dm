@@ -1,0 +1,14 @@
+ui_main_menu => nrel_main_idtf: 
+	[Главное меню] (* <- lang_ru;; *);;
+
+ui_menu_na_keynodes => nrel_main_idtf:
+	[Ключевые узлы навигации] (* <- lang_ru;; *);;
+
+ui_menu_na_view_kb_extended_of_sets => nrel_main_idtf: 
+	[Команды просмотра БЗ] (* <- lang_ru;; *);;
+
+ui_menu_na_mappings => nrel_main_idtf:
+	[Команды для работы с соответствиями] (* <- lang_ru;; *);;
+
+ui_menu_na_sets => nrel_main_idtf:
+	[Команды для работы со множествами] (* <- lang_ru;; *);;

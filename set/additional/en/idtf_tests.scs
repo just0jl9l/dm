@@ -1,0 +1,16 @@
+set_A => nrel_main_idtf: [set A] (* <- lang_en;; *);;
+set_B => nrel_main_idtf: [set B] (* <- lang_en;; *);;
+set_C => nrel_main_idtf: [set C] (* <- lang_en;; *);;
+set_D => nrel_main_idtf: [set D] (* <- lang_en;; *);;
+
+nrel_A => nrel_main_idtf: [relation A*] (* <- lang_en;; *);;
+nrel_B => nrel_main_idtf: [relation B*] (* <- lang_en;; *);;
+nrel_C => nrel_main_idtf: [relation C*] (* <- lang_en;; *);;
+nrel_D => nrel_main_idtf: [relation D*] (* <- lang_en;; *);;
+nrel_E => nrel_main_idtf: [relation E*] (* <- lang_en;; *);;
+
+nrel_converse_relation => nrel_main_idtf: [converse relation*] (* <- lang_en;; *);;
+set_of_sets => nrel_main_idtf: [set of sets] (* <- lang_en;; *);;
+
+set_of_natural_numbers => nrel_power_set: [infinity] (* <- lang_en;;*);;
+set_of_real_numbers    => nrel_power_set: [infinity] (* <- lang_en;;*);;

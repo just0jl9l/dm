@@ -1,0 +1,15 @@
+section_tuples
+=> nrel_main_idtf:
+	[Section. Tuples]
+	(* <- lang_en;; *);
+
+<= nrel_sc_text_translation: 
+
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/tuples_en.html"
+			(* <- lang_en;; *);;
+		*);;
+	
+

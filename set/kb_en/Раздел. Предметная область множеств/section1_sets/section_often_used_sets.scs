@@ -1,0 +1,11 @@
+section_often_used_sets
+=> nrel_main_idtf:
+	[Section. Often used sets]
+	(* <- lang_en;; *);
+
+<= nrel_sc_text_translation:
+
+		...
+		(*
+		-> rrel_example: "file://htmls/section_often_used_sets_en.html" (* <-lang_en;; *);; 
+		*);;

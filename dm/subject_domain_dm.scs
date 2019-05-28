@@ -1,0 +1,72 @@
+subject_domain_of_dm
+=> nrel_main_idtf:
+	[Предметная область дискретной математики]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Subject domain of discrete math]
+	(* <- lang_en;; *);
+
+<- sc_node_struct;
+<- subject_domain;
+
+<= nrel_private_subject_domain: subject_domain_of_sets;
+<= nrel_private_subject_domain:section_graph_theory_hierarchy;
+<= nrel_private_subject_domain:subject_domain_of_comb;
+<= nrel_private_subject_domain:subject_domain_of_bool;
+<= nrel_private_subject_domain:subject_domain_of_logic;
+<= nrel_private_subject_domain:subject_domain_of_number;
+<= nrel_private_subject_domain:subject_domain_of_coding;
+<= nrel_private_subject_domain:subject_domain_of_alg;
+<= nrel_private_subject_domain:subject_domain_of_system;
+<= nrel_private_subject_domain:subject_domain_of_bit_computing;
+<= nrel_private_subject_domain:subject_domain_of_discr_group;;
+
+subject_domain_of_comb
+=> nrel_main_idtf:
+	[Предметная область комбинаторики]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_bool
+=> nrel_main_idtf:
+	[Предметная область булевой алгебры]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_logic
+=> nrel_main_idtf:
+	[Предметная область математической логики]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_number
+=> nrel_main_idtf:
+	[Предметная область чисел]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_coding
+=> nrel_main_idtf:
+	[Предметная область кодирования]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_alg
+=> nrel_main_idtf:
+	[Предметная область алгоритмов]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_auto
+=> nrel_main_idtf:
+	[Предметная область автоматов]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_func_system
+=> nrel_main_idtf:
+	[Предметная область функциональных систем]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_bit_computing
+=> nrel_main_idtf:
+	[Предметная область разрядных вычислений]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_discr_group
+=> nrel_main_idtf:
+	[Предметная область дискретных групп]
+	(* <- lang_ru;; *);;

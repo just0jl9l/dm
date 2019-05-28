@@ -1,0 +1,7 @@
+ui_menu_na_mappings <- ui_user_command_class_noatom;
+<= nrel_ui_commands_decomposition:
+{	
+	ui_menu_file_for_finding_mapping_union;
+	ui_menu_file_for_finding_mapping_intersection;
+	ui_menu_file_for_finding_the_prototype_of_mapping
+};;

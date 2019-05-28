@@ -1,0 +1,10 @@
+section_evidence_of_set_theory
+=> nrel_main_idtf:
+	[Section. Evidence of set theory]
+	(* <- lang_en;; *);
+
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: "file://htmls/proof_en.html" (* <-lang_en;; *);;
+		*);;

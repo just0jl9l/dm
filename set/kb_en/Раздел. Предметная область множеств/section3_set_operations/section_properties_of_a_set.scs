@@ -1,0 +1,12 @@
+section_properties_of_a_set
+=> nrel_main_idtf:
+
+	[Section. Properties of a set operations]
+	(* <- lang_en;; *);
+
+<= nrel_sc_text_translation:
+
+		...
+		(*
+		-> rrel_example: "file://htmls/set_identities_en.html" (* <-lang_en;; *);; 
+		*);;

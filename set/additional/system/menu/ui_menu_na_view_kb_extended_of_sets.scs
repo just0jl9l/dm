@@ -1,0 +1,33 @@
+ui_menu_na_view_kb_extended_of_sets <- ui_user_command_class_noatom;
+<= nrel_ui_commands_decomposition:
+{
+	ui_menu_na_view_kb_base;
+	ui_menu_na_view_kb_structure;
+	ui_na_relations;
+	ui_menu_na_view_kb_semantic_square;
+	ui_na_various_objects;
+
+	ui_menu_file_for_finding_value_task;
+	ui_menu_file_for_logic_deduction;
+	ui_menu_file_for_calculating_math_expressions;
+	ui_menu_file_for_finding_proof;
+	ui_menu_file_for_finding_proof_task;
+	ui_menu_file_for_finding_hypertext;
+	ui_menu_file_for_solver_solution
+};
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:	
+		...
+		(*
+		-> [Команда Просмотр БЗ - это неатомарная команда пользовательского интерфейса, которая декомпозируется на команды позволяющие осуществлять навигацию по базе знаний] 			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> [Command View KB - is a non atomic user interface command. It splitting to user interface commands, that allows to navigate by knowledge base] (* <- lang_en;; *);;
+		*);;
+	*);;
+

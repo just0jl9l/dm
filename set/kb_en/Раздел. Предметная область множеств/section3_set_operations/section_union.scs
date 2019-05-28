@@ -1,0 +1,14 @@
+section_union
+=> nrel_main_idtf:
+
+	[Section. Union]
+	(* <- lang_en;; *);
+
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/union_en.html"
+			(* <- lang_en;; *);;
+		*);;
+		

@@ -1,0 +1,11 @@
+section_notion_of_a_set
+=> nrel_main_idtf:
+	[Section. Notion of a set]
+	(* <- lang_en;; *);
+
+<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://htmls/section_notion_of_set_en.html" (* <-lang_en;; *);; 
+		*);;
+

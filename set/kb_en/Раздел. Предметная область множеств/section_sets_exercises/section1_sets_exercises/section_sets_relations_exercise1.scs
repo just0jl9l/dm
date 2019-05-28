@@ -1,0 +1,9 @@
+section_sets_exercise1
+=> nrel_main_idtf:
+	[Section 1. Exercise 1]
+	(* <- lang_en;; *);
+<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://htmls/section_sets_exercise1_en.html" (* <-lang_en;; *);; 
+		*);;

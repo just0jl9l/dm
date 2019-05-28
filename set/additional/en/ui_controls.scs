@@ -1,0 +1,9 @@
+// ------------------------------------------------
+ui_control_component_save_data
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		... (* -> [control that allows you to add a new concept and keep it in the knowledge base] (* <- lang_en;; *);; *);;
+	*);;
