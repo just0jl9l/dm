@@ -1,0 +1,43 @@
+section_dm
+=> nrel_main_idtf:
+	[Раздел. Дискретная математика]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Discrete math]
+	(* <- lang_en;; *);
+
+<- not_enough_formed_structure;
+<- sc_model_of_knowledge_base;
+<- non_atomic_section;
+<- ui_start_sc_element;
+
+<= nrel_section_decomposition:
+	{
+        section_subject_domain_of_n_sets
+		(*
+		=> nrel_section_base_order: 
+			section_subject_domain_of_n_graph;;
+		*);
+		section_subject_domain_of_n_graph
+		(*
+		=> nrel_section_base_order: 
+			section_project_OSTIS_perspectives_current_state_history_of_evolution_and_use;;
+		*);
+		section_project_OSTIS_perspectives_current_state_history_of_evolution_and_use
+		(*
+		=> nrel_section_base_order: 
+			doc_IMS;;
+		*);
+		doc_IMS
+		(*
+		=> nrel_section_base_order: 
+			history_and_current_processes_of_use_IMS;;
+		*);
+		history_and_current_processes_of_use_IMS
+		(*
+		=> nrel_section_base_order: 
+			section_project_IMS_history_and_development_programme;;
+		*);
+		section_project_IMS_history_and_development_programme
+		
+	};;
