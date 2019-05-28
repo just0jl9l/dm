@@ -21,23 +21,102 @@ section_dm
 		section_subject_domain_of_n_graph
 		(*
 		=> nrel_section_base_order: 
-			section_project_OSTIS_perspectives_current_state_history_of_evolution_and_use;;
+			section_comb;;
 		*);
-		section_project_OSTIS_perspectives_current_state_history_of_evolution_and_use
+		section_comb
 		(*
 		=> nrel_section_base_order: 
-			doc_IMS;;
+			section_bool;;
 		*);
-		doc_IMS
+		section_bool
 		(*
 		=> nrel_section_base_order: 
-			history_and_current_processes_of_use_IMS;;
+			section_logic;;
 		*);
-		history_and_current_processes_of_use_IMS
+		section_logic
 		(*
 		=> nrel_section_base_order: 
-			section_project_IMS_history_and_development_programme;;
+			section_number;;
 		*);
-		section_project_IMS_history_and_development_programme
-		
+		section_number
+		(*
+		=> nrel_section_base_order: 
+			section_coding;;
+		*);
+		section_coding
+		(*
+		=> nrel_section_base_order: 
+			section_alg;;
+		*);
+		section_alg
+		(*
+		=> nrel_section_base_order: 
+			section_auto;;
+		*);
+		section_auto
+		(*
+		=> nrel_section_base_order: 
+			section_func_system;;
+		*);
+		section_func_system
+		(*
+		=> nrel_section_base_order: 
+			section_bit_computing;;
+		*);
+		section_bit_computing
+		(*
+		=> nrel_section_base_order: 
+			section_discr_group;;
+		*);
+		section_discr_group
 	};;
+
+section_comb
+=> nrel_main_idtf:
+	[Раздел. Комбинаторика]
+	(* <- lang_ru;; *);;
+
+section_bool
+=> nrel_main_idtf:
+	[Раздел. Булевая алгебра]
+	(* <- lang_ru;; *);;
+
+section_logic
+=> nrel_main_idtf:
+	[Раздел. Математическая логика]
+	(* <- lang_ru;; *);;
+
+section_number
+=> nrel_main_idtf:
+	[Раздел. Теория чисел]
+	(* <- lang_ru;; *);;
+
+section_coding
+=> nrel_main_idtf:
+	[Раздел. Теория кодирования]
+	(* <- lang_ru;; *);;
+
+section_alg
+=> nrel_main_idtf:
+	[Раздел. Теория алгоритмов]
+	(* <- lang_ru;; *);;
+
+section_auto
+=> nrel_main_idtf:
+	[Раздел. Теория автоматов]
+	(* <- lang_ru;; *);;
+
+section_func_system
+=> nrel_main_idtf:
+	[Раздел. Теория функциональных систем]
+	(* <- lang_ru;; *);;
+
+section_bit_computing
+=> nrel_main_idtf:
+	[Раздел. Теория разрядных вычислений]
+	(* <- lang_ru;; *);;
+
+section_discr_group
+=> nrel_main_idtf:
+	[Раздел. Теория дискретных групп]
+	(* <- lang_ru;; *);;
