@@ -1,4 +1,0 @@
-sets
-=> nrel_main_idtf:
-	[sets]
-	(* <- lang_en;; *);;

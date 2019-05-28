@@ -11,6 +11,8 @@ section_dm
 <- non_atomic_section;
 <- ui_start_sc_element;
 
+<- rrel_key_sc_element: subject_domain_of_dm;
+
 <= nrel_section_decomposition:
 	{
         section_subject_domain_of_n_sets
@@ -74,32 +76,39 @@ section_dm
 section_comb
 => nrel_main_idtf:
 	[Раздел. Комбинаторика]
-	(* <- lang_ru;; *);;
+	(* <- lang_ru;; *);
+
+<- rrel_key_sc_element: subject_domain_of_comb;;
 
 section_bool
 => nrel_main_idtf:
 	[Раздел. Булевая алгебра]
-	(* <- lang_ru;; *);;
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element: subject_domain_of_bool;;
 
 section_logic
 => nrel_main_idtf:
 	[Раздел. Математическая логика]
-	(* <- lang_ru;; *);;
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element: subject_domain_of_logic;;
 
 section_number
 => nrel_main_idtf:
 	[Раздел. Теория чисел]
-	(* <- lang_ru;; *);;
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element: subject_domain_of_number;;
 
 section_coding
 => nrel_main_idtf:
 	[Раздел. Теория кодирования]
-	(* <- lang_ru;; *);;
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element: subject_domain_of_coding;;
 
 section_alg
 => nrel_main_idtf:
 	[Раздел. Теория алгоритмов]
-	(* <- lang_ru;; *);;
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element: subject_domain_of_alg;;
 
 section_auto
 => nrel_main_idtf:
@@ -109,14 +118,17 @@ section_auto
 section_func_system
 => nrel_main_idtf:
 	[Раздел. Теория функциональных систем]
-	(* <- lang_ru;; *);;
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element: subject_domain_of_func_system;;
 
 section_bit_computing
 => nrel_main_idtf:
 	[Раздел. Теория разрядных вычислений]
-	(* <- lang_ru;; *);;
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element: subject_domain_of_computing;;
 
 section_discr_group
 => nrel_main_idtf:
 	[Раздел. Теория дискретных групп]
-	(* <- lang_ru;; *);;
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element: subject_domain_of_discr_group;;
