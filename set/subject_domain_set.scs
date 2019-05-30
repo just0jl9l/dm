@@ -11,18 +11,200 @@ subject_domain_of_sets
 
 -> rrel_maximum_studied_object_class: set;
 
+-> rrel_not_maximum_studied_object_class:
+	universum;
+	empty_set;
+
+
+-> rrel_explored_relation:
+	element_of_set;
+	nrel_belonging;
+
+<- rrel_key_sc_element: 
+        ...
+	(*
+	<- explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Предметная область множеств - предметная область, объектами исследования которой являются множества различных типов и отношения между ними.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);
+
 <= nrel_private_subject_domain: subject_domain_of_finite_sets;
-<= nrel_private_subject_domain: subject_domain_of_discr_group;
-<= nrel_private_subject_domain: subject_domain_of_discr_group;
-<= nrel_private_subject_domain: subject_domain_of_discr_group;
-<= nrel_private_subject_domain: subject_domain_of_discr_group;
-<= nrel_private_subject_domain: subject_domain_of_discr_group;
-<= nrel_private_subject_domain: subject_domain_of_discr_group;
-<= nrel_private_subject_domain: subject_domain_of_discr_group;
-<= nrel_private_subject_domain: subject_domain_of_discr_group;
-<= nrel_private_subject_domain: subject_domain_of_discr_group;;
+<= nrel_private_subject_domain: subject_domain_of_infinite_sets;
+<= nrel_private_subject_domain: subject_domain_of_sch_sets;
+<= nrel_private_subject_domain: subject_domain_of_cont_sets;
+<= nrel_private_subject_domain: subject_domain_of_graphics;
+<= nrel_private_subject_domain: subject_domain_of_ordered_sets;
+<= nrel_private_subject_domain: subject_domain_of_unsmth_sets;
+<= nrel_private_subject_domain: subject_domain_of_multisets;
+<= nrel_private_subject_domain: subject_domain_of_relations;
+<= nrel_private_subject_domain: subject_domain_of_corresp;;
 
 subject_domain_of_finite_sets
 => nrel_main_idtf:
-	[Предметная область ]
+	[Предметная область конечных множеств]
 	(* <- lang_ru;; *);;
+
+subject_domain_of_infinite_sets
+=> nrel_main_idtf:
+	[Предметная область бесконечных множеств]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_sch_sets
+=> nrel_main_idtf:
+	[Предметная область счётных множеств]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_cont_sets
+=> nrel_main_idtf:
+	[Предметная область континуальных множеств]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_graphics
+=> nrel_main_idtf:
+	[Предметная область графиков]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_ordered_sets
+=> nrel_main_idtf:
+	[Предметная область упорядоченных множеств]
+	(* <- lang_ru;; *);
+<= nrel_private_subject_domain: subject_domain_of_pairs
+(*=> nrel_main_idtf:
+	[Предметная область пар]
+	(* <- lang_ru;; *);;
+*);;
+
+subject_domain_of_unsmth_sets
+=> nrel_main_idtf:
+	[Предметная область нечётких множеств]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_multisets
+=> nrel_main_idtf:
+	[Предметная область мультимножеств]
+	(* <- lang_ru;; *);;
+
+subject_domain_of_relations
+=> nrel_main_idtf:
+	[Предметная область отношений]
+	(* <- lang_ru;; *);
+<= nrel_private_subject_domain: subject_domain_of_bin_rel
+(*=> nrel_main_idtf:
+	[Предметная область бинарных отношений]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_ref_rel
+(*=> nrel_main_idtf:
+	[Предметная область рефлексивных отношений]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_antiref_rel
+(*=> nrel_main_idtf:
+	[Предметная область антирефлексивных отношений]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_sim_rel
+(*=> nrel_main_idtf:
+	[Предметная область симметричных отношений]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_antisim_rel
+(*=> nrel_main_idtf:
+	[Предметная область антисимметричных отношений]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_tr_rel
+(*=> nrel_main_idtf:
+	[Предметная область транзитивных отношений]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_lin_rel
+(*=> nrel_main_idtf:
+	[Предметная область линейных отношений]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_eq_rel
+(*=> nrel_main_idtf:
+	[Предметная область отношений эквивалентности]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_ord_rel
+(*=> nrel_main_idtf:
+	[Предметная область отношений порядка]
+	(* <- lang_ru;; *);;
+	<= nrel_private_subject_domain: subject_domain_of_nonstr_ord_rel
+	(*=> nrel_main_idtf:
+		[Предметная область отношений нестрогого порядка]
+		(* <- lang_ru;; *);;
+	*);;
+	<= nrel_private_subject_domain: subject_domain_of_str_ord_rel
+	(*=> nrel_main_idtf:
+		[Предметная область отношений строгого порядка]
+		(* <- lang_ru;; *);;
+	*);;
+	<= nrel_private_subject_domain: subject_domain_of_line_ord_rel
+	(*=> nrel_main_idtf:
+		[Предметная область отношений линейного порядка]
+		(* <- lang_ru;; *);;
+	*);;
+	<= nrel_private_subject_domain: subject_domain_of_part_ord_rel
+	(*=> nrel_main_idtf:
+		[Предметная область отношений частичного порядка]
+		(* <- lang_ru;; *);;
+	*);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_predor_rel
+(*=> nrel_main_idtf:
+	[Предметная область отношений предпорядка]
+	(* <- lang_ru;; *);;
+*);;
+
+subject_domain_of_corresp
+=> nrel_main_idtf:
+	[Предметная область соответствий]
+	(* <- lang_ru;; *);
+<= nrel_private_subject_domain: subject_domain_of_all_def_corresp
+(*=> nrel_main_idtf:
+	[Предметная область всюду определённых соответствий]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_sur_corresp
+(*=> nrel_main_idtf:
+	[Предметная область сюръективных соответствий]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_in_corresp
+(*=> nrel_main_idtf:
+	[Предметная область инъективных соответствий]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_vz_corresp
+(*=> nrel_main_idtf:
+	[Предметная область взаимнооднозначных соответствий]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_func
+(*=> nrel_main_idtf:
+	[Предметная область функций]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_biek
+(*=> nrel_main_idtf:
+	[Предметная область биекций]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_x_in_y
+(*=> nrel_main_idtf:
+	[Предметная область отображений Х в Y]
+	(* <- lang_ru;; *);;
+*);
+<= nrel_private_subject_domain: subject_domain_of_x_on_y
+(*=> nrel_main_idtf:
+	[Предметная область отображений Х на Y]
+	(* <- lang_ru;; *);;
+*);;
